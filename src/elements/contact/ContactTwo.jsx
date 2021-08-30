@@ -17,7 +17,7 @@ class ContactTwo extends Component{
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <span className="subtitle">連絡しましょう</span>
+                                <span className="subtitle">メール、電話にてご質問をお受けしています。お気軽にお問い合わせください。</span>
                                 <h2 className="title">お問い合わせ</h2>
                                 <div className="im_address">
                                     <span>Tel:</span>
@@ -26,6 +26,10 @@ class ContactTwo extends Component{
                                 <div className="im_address mt--5">
                                     <span>Email:</span>
                                     <a className="link im-hover" href="email">info@unilead.co.jp</a>
+                                </div>
+                                <div className="im_address mt--5">
+                                    <span>Adress</span>
+                                    <a className="link im-hover" href="email">〒004ｰ0841 北海道札幌市清田区清田1条4丁目1番45号　R4TMビル　2003号室</a>
                                 </div>
                             </div>
                             <div className="form-wrapper">
@@ -78,7 +82,7 @@ class ContactTwo extends Component{
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-12.jpg" alt="trydo"/>
+                                <img src="/assets/images/about/contact.jpg" alt="trydo"/>
                             </div>
                         </div>
                     </div>

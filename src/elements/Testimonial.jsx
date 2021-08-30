@@ -102,7 +102,7 @@ class Testimonial extends Component{
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-1.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/team/team-01.jpg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>

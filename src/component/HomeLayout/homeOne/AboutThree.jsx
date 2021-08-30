@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom';
 class AboutThree extends Component {
 
     render(){
-        let title = 'Refreshingly Unique Company About.',
+        let title = '会社の特徴',
         description = 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
         description2 = 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences';
         var namesItemOne = [
-            'The Philosophy Of business analytics',
-            'Fast-Track Your business',
-            'Lies And Damn Lies About business',
-            'Lies And Damn Lies About business',
-            'Lies And Damn Lies About business',
-            'The Ultimate Deal On business',
+            '会社の特徴1',
+            '会社の特徴２',
+            '会社の特徴３',
+            '会社の特徴４',
+            '会社の特徴５',
+            '会社の特徴６'
         ];
         return(
             <React.Fragment>

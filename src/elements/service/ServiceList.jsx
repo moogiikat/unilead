@@ -4,23 +4,23 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: '⼀般⼟⽊・建築⼯事請負事業',
+        description: '⼀般⼟⽊・建築⼯事請負事業'
     },
     {
         icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: '再生可能エネルギー事業',
+        description: '再生可能エネルギー事業（太陽光発電所設計・施工・メンテナンス）'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: '特定技能者支援業務',
+        description: '特定技能者支援業務（許可19登-0034469)'
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'マスク',
+        description: '日本製フェイスガード・フェイスシールド製造販売事業'
     },
     {
         icon: <FiUsers />,

@@ -18,9 +18,9 @@ import Helmet from "../component/common/Helmet";
 import AboutThree from "../component/HomeLayout/homeOne/AboutThree";
 
 const Portfolio_image = <img src="/assets/images/solorpanel.jpg" alt="React Creative Agency" />;
-const Portfolio_image2 = <img src="/assets/images/portfolio/interior/portfolio-12.jpg" alt="React Creative Agency" />;
-const Portfolio_image3 = <img src="/assets/images/portfolio/interior/portfolio-13.jpg" alt="React Creative Agency" />;
-const Portfolio_image4 = <img src="/assets/images/portfolio/interior/portfolio-14.jpg" alt="React Creative Agency" />;
+const Portfolio_image2 = <img src="/assets/images/portfolio/interior/mask.png" alt="React Creative Agency" />;
+const Portfolio_image3 = <img src="/assets/images/portfolio/interior/services-3.jpg" alt="React Creative Agency" />;
+const Portfolio_image4 = <img src="/assets/images/portfolio/interior/services-1.jpg" alt="React Creative Agency" />;
 
 const SlideList = [
     {
@@ -48,15 +48,15 @@ const PortfolioList = [
     },
     {
         image: Portfolio_image3,
-        category: 'Company',
-        title: 'Company Inner',
-        description: 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit conse ctetur adipiscing elit.'
+        category: 'モンゴル⼈就労者⽀援事業',
+        title: 'モンゴル⼈就労者⽀援事業',
+        description: '初めて来日する人でも安心して仕事を続けられるよう、経営者も雇用を維持できるように支援します。優秀なモンゴル人材を紹介し、就労ビザ取得支援を行います。'
     },
     {
         image: Portfolio_image4,
-        category: 'Office Interior',
-        title: 'Creative Agency',
-        description: 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit conse ctetur adipiscing elit.'
+        category: '再⽣可能エネルギー事業',
+        title: '再⽣可能エネルギー事業',
+        description: '太陽光発電所の設計・施工を一式請け負います。今までの経験と実績を活かし高い品質の発電所を短期間で施工することでお客様のニーズにお応えします。許認可関係の行政手続き代行も行います。'
     },
 ]
 
@@ -111,7 +111,7 @@ class HomeParticles extends Component{
         
         return(
             <Fragment>
-                <Helmet pageTitle="Home Particles" />
+                <Helmet pageTitle="Unilead" />
 
                 {/* Start Header Area  */}
                 <header className="header-area formobile-menu header--fixed default-color">
@@ -126,14 +126,14 @@ class HomeParticles extends Component{
                         </div>
                         <div className="header-right">
                             <nav className="mainmenunav d-lg-block">
-                                <Scrollspy className="mainmenu" items={['home','service', 'about', 'portfolio','team','testimonial','blog', 'contact']} currentClassName="is-current" offset={-200}>
+                                <Scrollspy className="mainmenu" items={['home','service', 'portfolio','team','testimonial','blog', 'contact']} currentClassName="is-current" offset={-200}>
                                     <li><a href="#home">ホーム</a></li>
-                                    <li><a href="#service">事業概要</a></li>
-                                    <li><a href="#about">企業概要</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#team">Team</a></li>
-                                    <li><a href="#testimonial">Testimonial</a></li>
-                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#service">企業概要</a></li>
+                                    {/* <li><a href="#about">企業概要</a></li> */}
+                                    <li><a href="#portfolio">事業概要</a></li>
+                                    <li><a href="#team">チームメンバー</a></li>
+                                    <li><a href="#testimonial">言葉</a></li>
+                                    <li><a href="#blog">ブログ</a></li>
                                     <li><a href="#contact">お問い合わせ</a></li>
                                 </Scrollspy>
                             </nav>
@@ -202,8 +202,8 @@ class HomeParticles extends Component{
                             <div className="col-lg-12 col-12">
                                 <div className="section-title text-left mb--30">
                                     <span className="subtitle">会社概要</span>
-                                    <h2 className="title">Services provide for you.</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
+                                    <h2 className="title">事業内容</h2>
+                                    <p className="description"></p>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +278,7 @@ class HomeParticles extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
                                     <span className="subtitle">Experts growts</span>
-                                    <h2 className="title">Our Company Growth</h2>
+                                    <h2 className="title">当社の成長</h2>
                                 </div>
                             </div>
                         </div>
@@ -367,19 +367,6 @@ class HomeParticles extends Component{
                     <Contact />
                 </div>
                 {/* End Contact Us */}
-
-
-                {/* Start Brand Area */}
-                <div className="rn-brand-area bg_color--1 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area */}
 
                  {/* Start Footer Style  */}
                  <FooterTwo />
