@@ -29,7 +29,7 @@ const SlideList = [
         title: 'モンゴルパワーを⽇本へ\n⽇本の先端技術をモンゴルへ\nLEADする',
         description: 'コロナウィルス感染拡大防止のためフェイスガード・フェイスシールド製造販売中',
         buttonText: 'お問い合わせ',
-        buttonLink: '/contact'
+        buttonLink: '#contact'
     }
 ]
 

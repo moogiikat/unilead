@@ -24,13 +24,13 @@ const ServiceList = [
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'sample1',
+        description: 'text text text text text text text text'
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'sample2',
+        description: 'text text text text text text text text'
     }
 ]
 

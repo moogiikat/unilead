@@ -17,7 +17,7 @@ class ContactTwo extends Component{
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <span className="subtitle">メール、電話にてご質問をお受けしています。お気軽にお問い合わせください。</span>
+                                <span className="subtitle">お気軽にお問い合わせください。</span>
                                 <h2 className="title">お問い合わせ</h2>
                                 <div className="im_address">
                                     <span>Tel:</span>
