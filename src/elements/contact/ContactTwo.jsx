@@ -1,6 +1,20 @@
 import React, { Component } from "react";
+import emailjs from 'emailjs-com';
 
 class ContactTwo extends Component{
+    sendEmail(e){
+        console.log(e.target);
+        e.preventDefault();
+
+        emailjs.sendForm('service_kxrrokj', 'template_hpnm4s7', e.target, 'user_dIkPipRwN3MrLQQcAX0QP')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset()
+    }
+
     constructor(props){
         super(props);
         this.state = {
@@ -33,7 +47,7 @@ class ContactTwo extends Component{
                                 </div>
                             </div>
                             <div className="form-wrapper">
-                                <form>
+                                <form onSubmit={this.sendEmail}>
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
@@ -76,7 +90,7 @@ class ContactTwo extends Component{
                                             placeholder="Your Message"
                                         />
                                     </label>
-                                    <button className="btn-default" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit Now</button>
+                                    <button className="btn-default" value="Send" type="submit">Submit Now</button>
                                 </form>
                             </div>
                         </div>
