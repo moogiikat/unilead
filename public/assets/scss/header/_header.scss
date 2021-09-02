@@ -70,15 +70,15 @@
             }
         }
 
-        .logo {
-            a {
-                img {
-                    @media #{$sm-layout} {
-                        width: 120px;
-                    }
-                }
-            }
-        }
+        // .logo {
+        //     a {
+        //         img {
+        //             @media #{$sm-layout} {
+        //                 width: 120px;
+        //             }
+        //         }
+        //     }
+        // }
     }
     &.color-white{
         a{

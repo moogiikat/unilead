@@ -16,6 +16,7 @@ import FooterTwo from "../component/footer/FooterTwo";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import AboutThree from "../component/HomeLayout/homeOne/AboutThree";
+import CounterOne from "../elements/counters/CounterOne";
 
 const Portfolio_image = <img src="/assets/images/solorpanel.jpg" alt="React Creative Agency" />;
 const Portfolio_image2 = <img src="/assets/images/portfolio/interior/mask.png" alt="React Creative Agency" />;
@@ -282,7 +283,7 @@ class HomeParticles extends Component{
                                 </div>
                             </div>
                         </div>
-                        <CounterTwo />
+                        <CounterOne />
                     </div>
                 </div>
                 {/* End CounterUp Area */}
