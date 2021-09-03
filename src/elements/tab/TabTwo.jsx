@@ -5,10 +5,10 @@ import { ProgressBar } from 'react-bootstrap';
 class TabsTwo extends Component{
     render(){
         let 
-        tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education";
+        tab1 = "ビジョン",
+        tab2 = "ミッション",
+        tab3 = "目標",
+        tab4 = "行動方針";
         const { tabStyle } = this.props
         return(
             <div>
@@ -24,7 +24,7 @@ class TabsTwo extends Component{
                                         <Tab>{tab3}</Tab>
                                         <Tab>{tab4}</Tab>
                                     </TabList>
-
+{/* 
                                     <TabPanel>
                                         <div className="single-tab-content">
                                             <div className={`rn-progress-bar progress-bar--1 mt_dec--10`}>
@@ -53,23 +53,31 @@ class TabsTwo extends Component{
                                                 </div>
                                             </div>
                                         </div>
+                                    </TabPanel> */}
+                                    
+                                    <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                   <a href="/service">
+                                                   •「最先端技術とともに進展し、独自の領域を切り拓くことで新しい価値を創り出し、よりよい未来へ導く」
+                                                   </a>
+                                                   •激しく変化していく時代の最先端技術の開発・応用・組み合わ
+                                                    せを通じて、プロフェショナルとして私たちにしかできないこと
+                                                    を追い求めていき、磨き上げることで新しい価値を生み出すこと
+                                                    が私たちのビジョンです。お客様だけでなく、社会と新しい時代
+                                                    に求められる事業・サービスを提供し、持続可能な未来のため、
+                                                    社会の課題に挑みます。
+                                               </li>
+                                           </ul>
+                                       </div>
                                     </TabPanel>
-
 
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
-                                               </li>
-                                               <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                   <a href="/service">•あらゆる面でのあるべき状態のお手本になり、新しい道を切り拓き、夢を与えることが私たちの使命だと考えています。</a>
                                                </li>
                                            </ul>
                                        </div>
@@ -81,16 +89,13 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <a href="/service">•人を大切にし、人を磨き、人が活躍する場を作る</a>
                                                </li>
                                                <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
+                                                   <a href="/service">•やっている仕事のプロフェショナルであること</a>
                                                </li>
                                                <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <a href="/service">•同じ価値観をもつ最強のチームを作ること</a> 
                                                </li>
                                            </ul>
                                        </div>
@@ -100,16 +105,31 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
+                                                   <a href="/service">•あるべき状態より、よくあるためか？</a>
                                                </li>
                                                <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
+                                                   <a href="/service">•仲間と協力し最後までやり遂げるためか？</a>
                                                </li>
                                                <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a href="/service">•人、仲間、会社、社会のためか？</a>
                                                </li>
                                                <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a href="/service">•プロとして誇れる仕事をするためか？</a>
+                                               </li>
+                                               <li>
+                                                   <a href="/service">•失敗を恐れず、まず試してみるためか？</a>
+                                               </li>
+                                               <li>
+                                                   <a href="/service">•あるべき状態とは？プロとは？</a>
+                                               </li>
+                                               <li>
+                                                   <a href="/service">•責任をもってやり遂げること</a>
+                                               </li>
+                                               <li>
+                                                   <a href="/service">•常にお客様の期待以上の仕事をすること</a>
+                                               </li>
+                                               <li>
+                                                   <a href="/service">•失敗を繰り返さず、学び続けること</a>
                                                </li>
                                            </ul>
                                        </div>

@@ -7,7 +7,6 @@ import ScrollToTop from 'react-scroll-up';
 import Particles from 'react-particles-js';
 import { FiChevronUp , FiX , FiMenu, FiCheck } from "react-icons/fi";
 import ServiceList from "../elements/service/ServiceList";
-import CounterTwo from "../elements/counters/CounterTwo";
 import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
@@ -17,12 +16,14 @@ import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import AboutThree from "../component/HomeLayout/homeOne/AboutThree";
 import CounterOne from "../elements/counters/CounterOne";
+import TabTwo from "../elements/tab/TabTwo";
 
 const Portfolio_image = <img src="/assets/images/solorpanel.jpg" alt="React Creative Agency" />;
 const Portfolio_image2 = <img src="/assets/images/portfolio/interior/mask.png" alt="React Creative Agency" />;
 const Portfolio_image3 = <img src="/assets/images/portfolio/interior/services-3.jpg" alt="React Creative Agency" />;
 const Portfolio_image4 = <img src="/assets/images/portfolio/interior/services-1.jpg" alt="React Creative Agency" />;
-
+let titleA = 'ビジョン、理念',
+descriptionA = '技術の先端に挑戦し、常に理想(りそう)を追い求めて(おいもとめて)、よりよい未来へユニバースをリードする。';
 const SlideList = [
     {
         textPosition: 'text-center',
@@ -150,7 +151,7 @@ class HomeParticles extends Component{
                     </div>
                 </header>
                 {/* End Header Area  */}
-
+                
                 {/* Start Slider Area   */}
                 <div className="slider-activation slider-creative-agency with-particles" id="home">
                     <div className="frame-layout__particles">
@@ -195,6 +196,36 @@ class HomeParticles extends Component{
                         </div>
                 </div>
                 {/* End Slider Area   */}
+
+                {/* Start About Area */}
+                <div id="about" className="fix">
+                    <div className="about-area ptb--120 bg_color--5">
+                        <div className="about-wrapper">
+                            <div className="container">
+                                <div className="row row--35">
+                                    {/* <div className="col-lg-5">
+                                        <div className="thumbnail">
+                                            <img className="w-100" src="/assets/images/about/about-7.jpg" alt="About Images"/>
+                                        </div>
+                                    </div> */}
+                                    <div className="col-lg-12">
+                                        <div className="about-inner inner">
+                                            <div className="section-title">
+                                                <span className="subtitle">経営理念 Vision</span>
+                                                <h2 className="title">{titleA}</h2>
+                                                <p className="description mt_dec--20">{descriptionA}</p>
+                                            </div>
+                                            <div className="row mt--30">
+                                                <TabTwo tabStyle="tab-style--1" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 {/* End About Area */}
 
                 {/* Start Service Area  */}
                 <div className="service-area creative-service-wrapper ptb--120 bg_color--1" id="service">
