@@ -1,7 +1,17 @@
 import React, { Component } from "react";
 import emailjs from 'emailjs-com';
+import GoogleMapReact from 'google-map-react';
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class ContactTwo extends Component{
+    static defaultProps = {
+        center: {
+            lat: 59.95,
+            lng: 30.33
+        },
+        zoom: 11
+    };
     sendEmail(e){
         console.log(e.target);
         e.preventDefault();
@@ -95,9 +105,32 @@ class ContactTwo extends Component{
                             </div>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
-                            <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/contact.jpg" alt="trydo"/>
+                             {/* Start Contact Map  */}
+                            <div className="rn-contact-map-wrapper ptb--120 bg_color--1">
+                                <div className="container">
+                                    <div className="row">
+                                        {/* Start Single Map  */}
+                                        <div className="col-lg-12">
+                                            <div className="rn-contact-map-area position-relative">
+                                                <div style={{ height: '550px', width: '100%' }}>
+                                                    <GoogleMapReact
+                                                    defaultCenter={this.props.center}
+                                                    defaultZoom={this.props.zoom}
+                                                    >
+                                                    <AnyReactComponent
+                                                        lat={42.9991647}
+                                                        lng={141.4382313}
+                                                        text="My Marker"
+                                                    />
+                                                    </GoogleMapReact>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {/* End Single Map  */}
+                                    </div>
+                                </div>
                             </div>
+                            {/* End Contact Map  */}
                         </div>
                     </div>
                 </div>
