@@ -4,7 +4,6 @@ import { FiX , FiMenu} from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 
 
-
 class ServiceDetails extends Component{
     constructor () {
         super()
@@ -58,7 +57,7 @@ class ServiceDetails extends Component{
                 {/* End Header Area  */}
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="5">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"  data-black-overlay="5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -71,6 +70,9 @@ class ServiceDetails extends Component{
                     </div>
                 </div>
                 {/* End Breadcrump Area */}
+                <div style={{textAlign: "center", padding: "30px"}}>
+                    <div className="slide-btn"><a className="btn-default btn-large" href={`/`}>戻る</a></div>
+                </div>
             </React.Fragment>
         )
     }

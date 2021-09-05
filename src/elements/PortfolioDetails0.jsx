@@ -71,6 +71,9 @@ class ServiceDetails extends Component{
                     </div>
                 </div>
                 {/* End Breadcrump Area */}
+                <div style={{textAlign: "center", padding: "30px"}}>
+                    <div className="slide-btn"><a className="btn-default btn-large" href={`/`}>戻る</a></div>
+                </div>
             </React.Fragment>
         )
     }

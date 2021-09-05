@@ -55,59 +55,59 @@ let TeamContent = [
             },
         ]
     },
-    {
-        images: '06',
-        title: 'Jone Due',
-        designation: 'Sr. Web Developer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-            {
-                icon: <FaTwitter />,
-                url: '#'
-            },
-        ]
-    },
-    {
-        images: '05',
-        title: 'Fatima Asrafi',
-        designation: 'Front-end Engineer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-        ]
-    },
-    {
-        images: '12',
-        title: 'Al-Amin Bali',
-        designation: 'Sr. Graphic Designer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-            {
-                icon: <FaTwitter />,
-                url: '#'
-            },
-        ]
-    }
+    // {
+    //     images: '06',
+    //     title: 'Jone Due',
+    //     designation: 'Sr. Web Developer',
+    //     socialNetwork: [
+    //         {
+    //             icon: <FaFacebookF />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FaLinkedinIn />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FaTwitter />,
+    //             url: '#'
+    //         },
+    //     ]
+    // },
+    // {
+    //     images: '05',
+    //     title: 'Fatima Asrafi',
+    //     designation: 'Front-end Engineer',
+    //     socialNetwork: [
+    //         {
+    //             icon: <FaFacebookF />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FaLinkedinIn />,
+    //             url: '#'
+    //         },
+    //     ]
+    // },
+    // {
+    //     images: '12',
+    //     title: 'Al-Amin Bali',
+    //     designation: 'Sr. Graphic Designer',
+    //     socialNetwork: [
+    //         {
+    //             icon: <FaFacebookF />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FaLinkedinIn />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FaTwitter />,
+    //             url: '#'
+    //         },
+    //     ]
+    // }
 ];
 
 

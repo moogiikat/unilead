@@ -109,7 +109,7 @@ class Testimonial extends Component{
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/team/team-02.jpg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
@@ -141,7 +141,7 @@ class Testimonial extends Component{
                                                 </div>
                                             </div>
                                         </Tab>
-                                        <Tab>
+                                        {/* <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
                                                     <img src="/assets/images/client/testimonial-7.jpg" alt="Testimonial Images"/>
@@ -154,7 +154,7 @@ class Testimonial extends Component{
                                                     <img src="/assets/images/client/testimonial-8.jpg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
-                                        </Tab>
+                                        </Tab> */}
                                     </TabList>
                                 </div>
                             </div>
