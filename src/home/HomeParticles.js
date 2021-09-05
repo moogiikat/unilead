@@ -353,9 +353,9 @@ class HomeParticles extends Component{
                         <div className="row align-items-end">
                             <div className="col-lg-12">
                                 <div className="section-title text-left">
-                                    <span className="subtitle">what's stories on</span>
-                                    <h2 className="title">Latest News</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
+                                    <span className="subtitle">ニュース</span>
+                                    <h2 className="title">最近のニュース</h2>
+                                    <p className="description"></p>
                                 </div>
                             </div>
                         </div>

@@ -43,9 +43,6 @@ class AboutThree extends Component {
                                                 return <li key={ index }><FiCheck /> {name}</li>;
                                             })}
                                         </ul>
-                                        <div className="purchase-btn mt--30">
-                                            <Link className="btn-transparent" to="/">Top</Link>
-                                        </div>
                                     </div>
                                     
                                 </div>

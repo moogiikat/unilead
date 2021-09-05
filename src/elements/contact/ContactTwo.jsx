@@ -7,10 +7,10 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class ContactTwo extends Component{
     static defaultProps = {
         center: {
-            lat: 59.95,
-            lng: 30.33
+            lat: 42.99925379949643,
+            lng: 141.44080780738938
         },
-        zoom: 11
+        zoom: 15
     };
     sendEmail(e){
         console.log(e.target);
@@ -118,8 +118,8 @@ class ContactTwo extends Component{
                                                     defaultZoom={this.props.zoom}
                                                     >
                                                     <AnyReactComponent
-                                                        lat={42.9991647}
-                                                        lng={141.4382313}
+                                                        lat={42.99925379949643}
+                                                        lng={141.44080780738938}
                                                         text="My Marker"
                                                     />
                                                     </GoogleMapReact>

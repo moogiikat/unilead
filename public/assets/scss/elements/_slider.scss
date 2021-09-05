@@ -423,6 +423,7 @@ Slider Default Style
 .im_modern_slider {
     .slide {
         &.slide-style-2 {
+            white-space: pre-wrap;
             .inner {
                 h1 {
                     &.title {
@@ -439,7 +440,7 @@ Slider Default Style
                             font-size: 50px;
                         }
                         @media #{$sm-layout} {
-                            font-size: 38px;
+                            font-size: 25px;
                             padding-bottom: 10px;
                             margin-bottom: 20px;
                         }
