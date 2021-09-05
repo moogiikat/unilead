@@ -317,6 +317,51 @@ class HomeParticles extends Component{
                             </div>
                         </div>
                         <CounterOne />
+                        <div className="row" style={{paddingTop: "30px"}}>
+                            <div className="col-lg-12">
+                                <div className="section-title text-center">
+                                    <h2 className="title">SDGsへの取り組み</h2>
+                                    <h3 className="title" style={{color: "#f58634"}}>SDGsとは</h3>
+                                    <p className="description">SDGsとは、２０１５年９月の国連サミットで採択された「持続可能な開発のための２０３０アジェンダ」に記載された２０１６年から２０３０年までの国際目標です。貧困や格差、気候変動などの世界の問題に人類全体が一丸となって取り組み、２０３０年までに解決を目指すものです。</p>
+                                    <h3 className="title" style={{color: "#f58634"}}>UNILEADの取り組み</h3>
+                                    <p className="description">SDGsの１７の目標は企業努力で実現できる範囲を超えた目標もあり、当社が貢献しやすい分野から着手しています。当社は以下の６目標を重点として、活動を開始しています。UNILEADは社員にストレスをかけないため、ノルマや期限を重視していませんが、掲げた目標は時間がかかっても必ず達成しています。</p>
+                                    <p className="description">女性が働きやすい職場環境を作ることは、女性に限らず誰にとっても働きやすい職場環境の創出につながります。鹿島は「女性活躍推進」に積極的に取り組み、電気工事、ICTに女性の社員が女性がライフイベントに対応しやすくなるように、当社では多様な人事制度改革を実施し続けています。例えば、フレックスタイム制の導入、シェアオフィスの活用など、子育てなどをしている女性も働きやすい制度を積極的に展開しています。育児休暇</p>
+                                    <h3 className="title" style={{color: "#f58634"}}>環境への取り組み</h3>
+                                    <p className="description">弊社の施工した太陽光発電所31ヵ所は、年間/月間〇〇kWhの電気を発電している。これは、〇〇トン/kgのCO₂の排出を削減した。</p>
+                                    <h3 className="title" style={{color: "#f58634"}}>社会への取り組み</h3>
+                                    <p className="description">新型コロナウィルスの感染拡大防止に少しでも役に立てればと思い、近隣の小中高等学校に弊社が製造しているフェイスシールドを寄付させていただきました。一人ひとりの感染拡大防止に努力することはもちろん、弊社としても地域の一員としてできることで応援していきたいです。</p>
+                                    <div className="row">
+                                        <div className="col-lg-4 col-sm-6 col-12 mt--30">
+                                            <div className="im_portfolio">
+                                                <div className="thumbnail_inner">
+                                                    <div className="thumbnail">
+                                                        <img src={`/assets/images/service/1.jpeg`} alt="Blog Images"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 col-sm-6 col-12 mt--30">
+                                            <div className="im_portfolio">
+                                                <div className="thumbnail_inner">
+                                                    <div className="thumbnail">
+                                                        <img src={`/assets/images/service/2.jpeg`} alt="Blog Images"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 col-sm-6 col-12 mt--30">
+                                            <div className="im_portfolio">
+                                                <div className="thumbnail_inner">
+                                                    <div className="thumbnail">
+                                                        <img src={`/assets/images/service/3.jpeg`} alt="Blog Images"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* End CounterUp Area */}

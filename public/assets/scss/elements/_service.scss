@@ -378,8 +378,9 @@
 .creative-service-wrapper {
     .row {
         &.creative-service {
+            white-space: pre-wrap;
             a {
-                display: flex;
+                // display: flex;
                 height: 100%;
             }
             .service {
