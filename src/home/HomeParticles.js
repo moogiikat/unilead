@@ -227,8 +227,14 @@ class HomeParticles extends Component{
                 </div>
                  {/* End About Area */}
 
+                {/* Start About Area */}
+                <div className="about-area ptb--120 bg_color--1" id="about">
+                    <AboutThree />
+                </div>
+                {/* End About Area */}
+ 
                 {/* Start Service Area  */}
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--1" id="service">
+                <div className="service-area creative-service-wrapper ptb--120 bg_color--5" id="service">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-12">
@@ -247,13 +253,6 @@ class HomeParticles extends Component{
                     </div>
                 </div>  
                 {/* End Service Area  */} 
-
-
-                {/* Start About Area */}
-                <div className="about-area ptb--120 bg_color--5" id="about">
-                    <AboutThree />
-                </div>
-                {/* End About Area */}
 
                 {/* Start Portfolio Area */}
                 <div className="portfolio-area pt--120 pb--140 bg_color--1" id="portfolio">
@@ -301,6 +300,8 @@ class HomeParticles extends Component{
                     </div>
                 </div>
                 {/* End Portfolio Area */}
+
+
 
 
                 {/* Start CounterUp Area */}
