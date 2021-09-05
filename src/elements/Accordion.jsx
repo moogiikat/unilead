@@ -13,9 +13,26 @@ import { FiCheck } from "react-icons/fi";
 class Accordion01 extends Component {
     render(){
         var namesItemOne = [
-            'The Philosophy Of business analytics',
-            'Fast-Track Your business',
-            'Lies And Damn Lies About business',
+            'あるべき状態より、よくあるためか？',
+            '仲間と協力し最後までやり遂げるためか？',
+            '人、仲間、会社、社会のためか？',
+            'プロとして誇れる仕事をするためか？<',
+            '失敗を恐れず、まず試してみるためか？',
+            'あるべき状態とは？プロとは？',
+            '責任をもってやり遂げること',
+            '常にお客様の期待以上の仕事をすること',
+            '失敗を繰り返さず、学び続けること',
+        ];
+
+        var namesItemZero = [
+            '人を大切にし、人を磨き、人が活躍する場を作る',
+            'やっている仕事のプロフェショナルであるこ',
+            '同じ価値観をもつ最強のチームを作ること',
+        ];
+
+        var namesItemMinus = [
+            '「最先端技術とともに進展し、独自の領域を切り拓くことで新しい価値を創り出し、よりよい未来へ導く',
+            '激しく変化していく時代の最先端技術の開発・応用・組み合わ せを通じて、プロフェショナルとして私たちにしかできないこと を追い求めていき、磨き上げることで新しい価値を生み出すこと が私たちのビジョンです。お客様だけでなく、社会と新しい時代 に求められる事業・サービスを提供し、持続可能な未来のため、 社会の課題に挑みます。',
         ];
 
         return(
@@ -23,12 +40,12 @@ class Accordion01 extends Component {
                 <AccordionItem >
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Your Business Skills But Never Stop Improving.
+                            ビジョン
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <ul className="list-style--1">
-                            {namesItemOne.map((name, index) => {
+                            {namesItemMinus.map((name, index) => {
                                 return <li key={ index }><FiCheck /> {name}</li>;
                             })}
                         </ul>
@@ -38,13 +55,13 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Tactics That Can Help Your Business Grow.
+                            目標
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <ul className="list-style--1">
-                            {namesItemOne.map((name, index) => {
-                                return <li key={ index }> {name}</li>;
+                            {namesItemZero.map((name, index) => {
+                                return <li key={ index }><FiCheck /> {name}</li>;
                             })}
                         </ul>
                     </AccordionItemPanel>
@@ -53,12 +70,12 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            The Secret of Successful Business
+                            ミッション
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Ad aliquam dicta enim excepturi explicabo in ipsum iste iure natus perferendis placeat quae similique tempore totam veniam vero! Ad aliquam dicta enim excepturi explicabo in ipsum iste iure natus perferendis placeat quae similique tempore totam veniam vero!
+                            あらゆる面でのあるべき状態のお手本になり、新しい道を切り拓き、夢を与えることが私たちの使命だと考えています。
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -66,7 +83,7 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            How To Start A Business With Business
+                            行動方針
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>

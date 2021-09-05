@@ -17,6 +17,8 @@ import Helmet from "../component/common/Helmet";
 import AboutThree from "../component/HomeLayout/homeOne/AboutThree";
 import CounterOne from "../elements/counters/CounterOne";
 import TabTwo from "../elements/tab/TabTwo";
+import Accordion01 from "../elements/Accordion";
+
 
 const Portfolio_image = <img src="/assets/images/solorpanel.jpg" alt="React Creative Agency" />;
 const Portfolio_image2 = <img src="/assets/images/portfolio/interior/mask.png" alt="React Creative Agency" />;
@@ -226,6 +228,33 @@ class HomeParticles extends Component{
                     </div>
                 </div>
                  {/* End About Area */}
+
+                {/* Start About Area  */}
+                <div className="rn-about-area ptb--120 bg_color--5">
+                    <div className="container">
+                        <div className="row row--35">
+                            <div className="col-lg-6">
+                                <div className="thumbnail">
+                                    <img className="w-100" src="/assets/images/about/about-4.jpeg" alt="About Images"/>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="about-inner inner">
+                                    <div className="section-title">
+                                        <span className="subtitle">経営理念 Vision</span>
+                                        <h2 className="title">ビジョン、理念</h2>
+                                        <p>技術の先端に挑戦し、常に理想(りそう)を追い求めて(おいもとめて)、よりよい未来へユニバースをリードする。</p>
+                                    </div>
+                                    <div className="accordion-wrapper mt--30">
+                                        <Accordion01 />
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End About Area  */}
 
                 {/* Start About Area */}
                 <div className="about-area ptb--120 bg_color--1" id="about">

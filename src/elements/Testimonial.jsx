@@ -12,10 +12,13 @@ class Testimonial extends Component{
                                     <TabPanel>
                                         <div className="rn-testimonial-content text-left">
                                             <div className="inner">
-                                                <p>日本の特定産業において人手不足が続き、新設された在留資格により日本で働く外国人が増えていきます。しかし言葉や文化の違いによる障壁で悩む雇 用者と労働者の事例を数多く見てきました。弊社はそれらを乗り越える手助 けをし、外国人労働者のお手本となり導くことで両者が当初の目的を達成で きるよう応援していきます。そして自社で受け入れるモンゴルの人材を育成 し、お客様の望み通りの品質の技術サービスを提供できるよう、仲間と共に モチベーション高く仕事に取組んでおります。そして将来はみんなの力を合 わせて両国の貿易に大きく貢献できる事業や活動を行っていくために日々努 力し、前進してまいります。</p>
+                                                <p>✓ 最先端技術とともに進展し、独自の領域を切り拓くことで新しい価値を創り出し、よりよい未来へ導く</p>
+                                                <br />
+
+                                                <p>✓ 激しく変化していく時代の最先端技術の開発・応用・組み合わ せを通じて、プロフェショナルとして私たちにしかできないこと を追い求めていき、磨き上げることで新しい価値を生み出すこと が私たちのビジョンです。お客様だけでなく、社会と新しい時代 に求められる事業・サービスを提供し、持続可能な未来のため、 社会の課題に挑みます。</p>
                                             </div>
                                             <div className="author-info">
-                                                <h6><span>代表取締役 エルデネバートル テルグーン</span>株式会社UNILEAD（ユニリード)</h6>
+                                                <h6><span></span></h6>
                                             </div>
                                         </div>
                                     </TabPanel>
@@ -23,124 +26,98 @@ class Testimonial extends Component{
                                     <TabPanel>
                                         <div className="rn-testimonial-content text-left">
                                             <div className="inner">
-                                                <p>Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                                <p>✓ 人を大切にし、人を磨き、人が活躍する場を作る </p>
+                                                <p>✓ やっている仕事のプロフェショナルであるこ</p>
+                                                <p>✓ 同じ価値観をもつ最強のチームを作ること</p>
                                             </div>
                                             <div className="author-info">
-                                                <h6><span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                                <h6><span></span></h6>
                                             </div>
                                         </div>
                                     </TabPanel>
 
-                                    <TabPanel>
+                                    {/* <TabPanel>
                                         <div className="rn-testimonial-content text-left">
                                             <div className="inner">
-                                                <p>Jannin Jow The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                                <p></p>
                                             </div>
                                             <div className="author-info">
-                                                <h6><span>Jannin Jow </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                                <h6><span></span></h6>
                                             </div>
                                         </div>
-                                    </TabPanel>
+                                    </TabPanel> */}
+                                   
 
                                     <TabPanel>
                                         <div className="rn-testimonial-content text-left">
                                             <div className="inner">
-                                                <p>Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                                <p>✓ あらゆる面でのあるべき状態のお手本になり、新しい道を切り拓き、夢を与えることが私たちの使命だと考えています。</p>
                                             </div>
                                             <div className="author-info">
-                                                <h6><span>Johns Due </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                                <h6><span></span></h6>
+                                            </div>
+                                        </div>
+                                    </TabPanel>
+                                    
+                                    <TabPanel>
+                                        <div className="rn-testimonial-content text-left">
+                                            <div className="inner">
+                                                <p>✓ あるべき状態より、よくあるためか？</p>
+                                                <p>✓ 仲間と協力し最後までやり遂げるためか？</p>
+                                                <p>✓ 人、仲間、会社、社会のためか？</p>
+                                                <p>✓ プロとして誇れる仕事をするためか？</p>
+                                                <p>✓ 失敗を恐れず、まず試してみるためか？</p>
+                                                <p>✓ あるべき状態とは？プロとは？</p>
+                                                <p>✓ 責任をもってやり遂げること</p>
+                                                <p>✓ 常にお客様の期待以上の仕事をすること</p>
+                                                <p>✓ 失敗を繰り返さず、学び続けること</p>                                                
+                                            </div>
+                                            <div className="author-info">
+                                                <h6><span> </span></h6>
                                             </div>
                                         </div>
                                     </TabPanel>
 
-                                    <TabPanel>
-                                        <div className="rn-testimonial-content text-left">
-                                            <div className="inner">
-                                                <p>John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                            </div>
-                                            <div className="author-info">
-                                                <h6><span>John Doe </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                            </div>
-                                        </div>
-                                    </TabPanel>
-
-                                    <TabPanel>
-                                        <div className="rn-testimonial-content text-left">
-                                            <div className="inner">
-                                                <p>Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                            </div>
-                                            <div className="author-info">
-                                                <h6><span>Orthi </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                            </div>
-                                        </div>
-                                    </TabPanel>
-
-                                    <TabPanel>
-                                        <div className="rn-testimonial-content text-left">
-                                            <div className="inner">
-                                                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                            </div>
-                                            <div className="author-info">
-                                                <h6><span>Jaffin </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                            </div>
-                                        </div>
-                                    </TabPanel>
-
-                                    <TabPanel>
-                                        <div className="rn-testimonial-content text-left">
-                                            <div className="inner">
-                                                <p>Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                            </div>
-                                            <div className="author-info">
-                                                <h6><span>JON CUMMINS </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                            </div>
-                                        </div>
-                                    </TabPanel>
+                               
                                 </div>
                                 <div className="col-lg-6 mt_md--40 mt_sm--40">
                                     <TabList className="testimonial-thumb-wrapper">
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/team/team-01.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/team/vision-1.png" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/team/team-02.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/team/vision-4.png" alt="Testimonial Images"/>
+                                                </div>
+                                            </div>
+                                        </Tab>
+                                        {/* <Tab>
+                                            <div style={{display : "none"}} className="testimonial-thumbnai">
+                                                <div className="thumb">
+                                                    <img src="/assets/images/team/vision-5.png" alt="Testimonial Images"/>
+                                                </div>
+                                            </div>
+                                        </Tab> */}
+                                        <Tab>
+                                            <div className="testimonial-thumbnai">
+                                                <div className="thumb">
+                                                    <img src="/assets/images/team/vision-3.png" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/team/vision-2.png" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
-                                        <Tab>
-                                            <div className="testimonial-thumbnai">
-                                                <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-4.jpg" alt="Testimonial Images"/>
-                                                </div>
-                                            </div>
-                                        </Tab>
-                                        <Tab>
-                                            <div className="testimonial-thumbnai">
-                                                <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-5.jpg" alt="Testimonial Images"/>
-                                                </div>
-                                            </div>
-                                        </Tab>
-                                        <Tab>
-                                            <div className="testimonial-thumbnai">
-                                                <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-6.jpg" alt="Testimonial Images"/>
-                                                </div>
-                                            </div>
-                                        </Tab>
+                                      
                                         {/* <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
