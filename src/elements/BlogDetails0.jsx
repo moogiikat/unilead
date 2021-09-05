@@ -8,7 +8,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-class BlogDetails extends Component{
+class BlogDetails0 extends Component{
     constructor () {
         super()
         this.state = {
@@ -160,4 +160,5 @@ class BlogDetails extends Component{
         )
     }
 }
-export default BlogDetails;
+
+export default BlogDetails0;

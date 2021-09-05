@@ -113,7 +113,7 @@ class HomeParticles extends Component{
         
         return(
             <Fragment>
-                <Helmet pageTitle="Unilead" />
+                <Helmet pageTitle="Unilead || モンゴルパワーを⽇本へ" />
 
                 {/* Start Header Area  */}
                 <header className="header-area formobile-menu header--fixed default-color">
@@ -292,7 +292,8 @@ class HomeParticles extends Component{
                                                     </div>
                                                 </div>
                                             </div>
-                                            <Link className="transparent_link" to="/portfolio-details"></Link>
+                                            
+                                            <Link className="transparent_link" to={"/portfolio-details-"+index}></Link>
                                         </div>
                                     </div>
                                 ))}
@@ -373,17 +374,17 @@ class HomeParticles extends Component{
                                                 <div className="inner">
                                                     <div className="content_heading">
                                                         <div className="category_list">
-                                                            <Link to="/portfolio-details">{value.category}</Link>
+                                                            <Link to={"/blog-details-"+i}>{value.category}</Link>
                                                         </div>
                                                         <h4 className="title">
-                                                            <Link to="/blog-details">{value.title}</Link>
+                                                            <Link to={"/blog-details-"+i}>{value.title}</Link>
                                                         </h4>
                                                     </div>
                                                     <div className="content_footer">
-                                                        <Link to="/blog-details" className="rn-btn btn-opacity">Read More</Link>
+                                                        <Link to={"/blog-details-"+i} className="rn-btn btn-opacity">Read More</Link>
                                                     </div>
                                                 </div>
-                                                <Link className="transparent_link" to="/blog-details"></Link>
+                                                <Link className="transparent_link" to={"/blog-details-"+i}></Link>
                                             </div>
                                         </div>
                                     ))}

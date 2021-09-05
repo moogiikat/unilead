@@ -63,8 +63,8 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">事業内容 delgeregui hiij bolno</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <h2 className="title theme-gradient">モンゴル⼈就労者⽀援事業</h2>
+                                    <p>初めて来日する人でも安心して仕事を続けられるよう、経営者も雇用を維持できるように支援します。優秀なモンゴル人材を紹介し、就労ビザ取得支援を行います。</p>
                                 </div>
                             </div>
                         </div>

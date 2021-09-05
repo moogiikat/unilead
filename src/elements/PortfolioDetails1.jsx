@@ -63,8 +63,8 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">事業内容 delgeregui hiij bolno</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <h2 className="title theme-gradient">日本製フェースシールド製造販売事業</h2>
+                                    <p>【コロナウィルス感染拡大防止のために】 コロナウィルスが流行する中、最前線でウィルスと戦う医療関係者の防護具 が圧倒的に不足しており、感染拡大防止に少しでも役に立つために フェイスガード・フェイスシールドの製造・販売を始めました。 ウィルスと戦うすべての人々のために、良いものをより早くお届けするために 最善を尽くします。</p>
                                 </div>
                             </div>
                         </div>

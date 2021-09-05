@@ -63,8 +63,8 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">事業内容 delgeregui hiij bolno</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <h2 className="title theme-gradient">再⽣可能エネルギー事業</h2>
+                                    <p>太陽光発電所の設計・施工を一式請け負います。今までの経験と実績を活かし高い品質の発電所を短期間で施工することでお客様のニーズにお応えします。許認可関係の行政手続き代行も行います。</p>
                                 </div>
                             </div>
                         </div>
