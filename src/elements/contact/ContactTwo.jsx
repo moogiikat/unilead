@@ -13,14 +13,12 @@ class ContactTwo extends Component{
         zoom: 15
     };
     sendEmail(e){
-        console.log(e.target);
         e.preventDefault();
-
         emailjs.sendForm('service_kxrrokj', 'template_hpnm4s7', e.target, 'user_dIkPipRwN3MrLQQcAX0QP')
             .then((result) => {
-                console.log(result.text);
+                document.getElementById("contact-message").innerText = "✓ ご希望が成功しました."
             }, (error) => {
-                console.log(error.text);
+                document.getElementById("contact-message").innerText = "✕ エラーが発生しました。もう一度やってみてください"
             });
             e.target.reset()
     }
@@ -44,16 +42,20 @@ class ContactTwo extends Component{
                                 <span className="subtitle">お気軽にお問い合わせください。</span>
                                 <h2 className="title">お問い合わせ</h2>
                                 <div className="im_address">
-                                    <span>Tel:</span>
-                                    <a className="link im-hover" href="phone">011-311-3848</a>
+                                    <span>電話番号:</span>
+                                    <a className="link im-hover">011-311-3848</a>
                                 </div>
                                 <div className="im_address mt--5">
-                                    <span>Email:</span>
-                                    <a className="link im-hover" href="email">info@unilead.co.jp</a>
+                                    <span>メールアドレス:</span>
+                                    <a className="link im-hover" >info@unilead.co.jp</a>
                                 </div>
                                 <div className="im_address mt--5">
-                                    <span>Adress</span>
-                                    <a className="link im-hover" href="email">〒004ｰ0841 北海道札幌市清田区清田1条4丁目1番45号　R4TMビル　2003号室</a>
+                                    <span>郵便番号:</span>
+                                    <a className="link im-hover" >〒004ｰ0841</a>
+                                </div>
+                                <div className="im_address mt--5">
+                                    <span>アドレス:</span>
+                                    <a className="link im-hover" >北海道札幌市清田区清田1条4丁目1番45号　R4TMビル　2003号室</a>
                                 </div>
                             </div>
                             <div className="form-wrapper">
@@ -65,7 +67,7 @@ class ContactTwo extends Component{
                                             id="item01"
                                             value={this.state.rnName}
                                             onChange={(e)=>{this.setState({rnName: e.target.value});}}
-                                            placeholder="Your Name *"
+                                            placeholder="お名前"
                                         />
                                     </label>
 
@@ -76,7 +78,7 @@ class ContactTwo extends Component{
                                             id="item02"
                                             value={this.state.rnEmail}
                                             onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
-                                            placeholder="Your email *"
+                                            placeholder="メールアドレス"
                                         />
                                     </label>
 
@@ -87,7 +89,7 @@ class ContactTwo extends Component{
                                             id="item03"
                                             value={this.state.rnSubject}
                                             onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
-                                            placeholder="Write a Subject"
+                                            placeholder="タイトル"
                                         />
                                     </label>
                                     <label htmlFor="item04">
@@ -97,10 +99,13 @@ class ContactTwo extends Component{
                                             name="message"
                                             value={this.state.rnMessage}
                                             onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
-                                            placeholder="Your Message"
+                                            placeholder="ご希望"
                                         />
                                     </label>
-                                    <button className="btn-default" value="Send" type="submit">Submit Now</button>
+                                    <button className="btn-default" value="Send" type="submit">Submit</button>
+                                    <div>
+                                        <span id="contact-message"></span>
+                                    </div>
                                 </form>
                             </div>
                         </div>
